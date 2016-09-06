@@ -1,43 +1,15 @@
-# ProducerConsumer
+# CS253 Semester Project in C++
+# Created by Dominick Forlenza
 
-README FOR Producer/Consumer Java Program
-==============
+Read in large Microsoft Kinnect data files (full of doubles, 75 per line). Perform calculations based on given specifications, and use a dynamic time warping algorithm to find the best fit between poses within the file. This project demonstrates many C++ concepts.
 
------Created by Dominick Forlenza-----
+makefile:
 
-|--Buffer.java--|
-Buffer.java implements the FIFO circular buffer and has implemented the consume and produce functions.
+To make: 
+ - make all
 
-|--Consumer.java--|
-Implementation of the consumer - includes a running count of consumed doubles and prints appropriately.
+To clean directory:
+ - make clean
 
-|--Producer.java--|
-Implementation of the producer - includes a running count of produced doubles and prints appropriately.
-
-|--ProducerConsumer.java--|
-Main driver program that creates producer and consumer threads and starts them.
-
-|--Makefile--|
-
-   --The Makefile runs the following:
-     --"make all"
-     --"make clean"
-
-
-To compile:
-    Type "make all" in terminal
-
-To run:
-    java ProducerConsumer
-    
-
-
-# PipeReadingWritingInC
-# PipeReadingWritingInC
-# PipeReadingWritingInC
-# PipeReadingWritingInC
-# PipeReadingWritingInC
-# PipeReadingWritingInC
-# PipesInC
-# CS253CPP
-# CS253CPP
+To tar files:
+ - make package
